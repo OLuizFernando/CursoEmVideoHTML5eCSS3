@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    
+    <h1> Listas em HTML </h1>
+
+    <hr>
+
+    <h2> Lista Ordenada </h2>
+
+    <h4> Código: </h4>
+
+<p><pre><code>&lt;ol&gt;
+    &lt;li&gt; item 1 &lt;/li&gt;
+    &lt;li&gt; item 2 &lt;/li&gt;
+    &lt;li&gt; item 3 &lt;/li&gt;
+&lt;/ol&gt;</code></pre></p>
+
+    <h4> Resultado: </h4>
+
+    <p>
+    <ol>
+        <li> item 1 </li>
+        <li> item 2 </li>
+        <li> item 3 </li>
+    </ol>
+    </p>
+
+    <h3> Parâmetro type="" </h3>
+
+    <p> 1 - Numerada (padrão) <br>
+    A - Alfabética maiúsculo <br>
+    a - Alfabética minúsculo <br>
+    I - Algarismo romano maiúsculo <br>
+    i - Algarismo romano minúsuculo </p>
+
+    <h3> Parâmetro start="" </h3>
+
+    <p> Indica o início da contagem </p>
+
+    <hr>
+
+    <h2> Lista Não Ordenada </h2>
+
+    <h4> Código: </h4>
+
+<p><pre><code>&lt;ul&gt;
+    &lt;li&gt; item &lt;/li&gt;
+    &lt;li&gt; item &lt;/li&gt;
+    &lt;li&gt; item &lt;/li&gt;
+&lt;/ul&gt;</code></pre></p>
+
+    <h4> Resultado: </h4>
+
+    <p>
+    <ul>
+        <li> item </li>
+        <li> item </li>
+        <li> item </li>
+    </ul>
+    </p>
+
+    <h3> Parêmtro type="" </h3>
+
+    <p> disc - Bola preenchida (padrão) <br>
+    circle - Bola não preenchida <br>
+    square - Quadrado preenchido </p>
+
+    <hr>
+
+    <h2> Lista Com Sublista </h2>
+
+    <h4> Código: </h4>
+
+<p><pre><code>&lt;ol&gt;
+    &lt;li&gt; item 1 &lt;/li&gt;
+    &lt;li&gt; item 2 &lt;/li&gt;
+    &lt;ol type="a"&gt;
+        &lt;li&gt; item 2.1 &lt;/li&gt;
+        &lt;li&gt; item 2.2 &lt;/li&gt;
+        &lt;li&gt; item 2.3 &lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;li&gt; item 3 &lt;/li&gt;
+&lt;/ol&gt;</code></pre></p>
+
+    <h4> Resultado: </h4>
+
+    <p>
+    <ol>
+        <li> item 1 </li>
+        <li> item 2 </li>
+        <ol type="a">
+            <li> item 2.1 </li>
+            <li> item 2.2 </li>
+            <li> item 2.3 </li>
+        </ol>
+        <li> item 3 </li>
+    </ol>
+    </p>
+
+    <hr>
+
+    <h2> Lista de Definições </h2>
+
+    <h4> Código: </h4>
+
+<p><pre><code>&lt;dl&gt;
+    &lt;dt&gt; HTML &lt;/dt&gt;
+    &lt;dd&gt; Linguagem de marcação &lt;/dd&gt;
+
+    &lt;dt&gt; CSS &lt;/dt&gt;
+    &lt;dd&gt; Linguagem de estilização &lt;/dd&gt;
+
+    &lt;dt&gt; JavaScript &lt;/dt&gt;
+    &lt;dd&gt; Linguagem de programação &lt;/dd&gt;
+&lt;/dl&gt;</code></pre></p>
+
+    <h4> Resultado: </h4>
+
+    <dl>
+        <dt> HTML </dt>
+        <dd> Linguagem de marcação </dd>
+
+        <dt> CSS </dt>
+        <dd> Linguagem de estilização </dd>
+
+        <dt> JavaScript </dt>
+        <dd> Linguagem de programação </dd>
+    </dl>
+
+</body>
+</html>
